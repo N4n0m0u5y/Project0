@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function handleCommand(command) {
         if (command.trim() === 'help') {
-            appendOutput('Izzy: You need help? Of course you do. Here's what you can do:');
+            appendOutput('Izzy: You need help? Of course you do. Heres what you can do:');
             appendOutput(' - Type anything to chat with me.');
             appendOutput(' - Type "clear" to clear the terminal.');
         } else if (command.trim() === 'clear') {
